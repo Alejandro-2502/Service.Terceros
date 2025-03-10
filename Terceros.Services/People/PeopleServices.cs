@@ -9,7 +9,7 @@ namespace Terceros.Services.People;
 public class PeopleServices : IPeopleGateway
 {
     private readonly IHttpClientFactory _httpClientFactory;
-    private readonly ILogServices _logServices;
+    private readonly ILogServicesInteractor _logServices;
 
     public PeopleServices(IHttpClientFactory httpClientFactory)
     {

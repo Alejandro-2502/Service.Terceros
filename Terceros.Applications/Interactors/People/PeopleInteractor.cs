@@ -12,10 +12,10 @@ namespace Terceros.Applications.Interactors.People;
 public class PeopleInteractor : IPeopleInteractor
 {
     private readonly IPeopleGateway _peopleGateway;
-    private readonly ILogServices _logServices;
+    private readonly ILogServicesInteractor _logServices;
     private readonly IMapper _mapper;
 
-    public PeopleInteractor(IPeopleGateway peopleGateway, IMapper mapper, ILogServices logServices)
+    public PeopleInteractor(IPeopleGateway peopleGateway, IMapper mapper, ILogServicesInteractor logServices)
     {
         _peopleGateway = peopleGateway;
         _mapper = mapper;

@@ -12,7 +12,6 @@ public static class IServicesCollectionsExtension
 {
     public static IServiceCollection Configure(this IServiceCollection services, WebApplicationBuilder webApplicationBuilder, IConfiguration configuration)
     {
-        //ConfigHelper.SqlServer = configuration.GetSection(nameof(ConnectionsSqlServer)).Get<ConnectionsSqlServer>();
         ConfigHelper.ApiPeople = configuration.GetSection(nameof(ApiPeople)).Get<ApiPeople>();
 
         services.AddEndpointsApiExplorer();

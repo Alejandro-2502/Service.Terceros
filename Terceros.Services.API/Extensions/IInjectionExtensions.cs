@@ -14,7 +14,7 @@ public static class IInjectionExtension
         services.AddSingleton<IPeopleGateway, PeopleServices>();
         services.AddSingleton<IPeopleInteractor, PeopleInteractor>();
 
-        services.AddSingleton<ILogServices>(new LogServices("logfileTerceros.txt"));
+        services.AddSingleton<ILogServicesInteractor>(new LogServicesInteractor("logfileTerceros.txt"));
         services.AddScoped<ResponseHttp>();
 
         return services;

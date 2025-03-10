@@ -1,6 +1,6 @@
 ﻿namespace Terceros.Applications.Interfaces.ICommon;
 
-public interface ILogServices
+public interface ILogServicesInteractor
 {
     void LogError(string message);
 }

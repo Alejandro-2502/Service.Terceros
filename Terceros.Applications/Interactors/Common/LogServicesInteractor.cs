@@ -2,10 +2,10 @@
 
 namespace Terceros.Applications.Interactors.Common;
 
-public class LogServices : ILogServices
+public class LogServicesInteractor : ILogServicesInteractor
 {
     private readonly string _logFilePath;
-    public LogServices(string logFilePath)
+    public LogServicesInteractor(string logFilePath)
     {
         _logFilePath = logFilePath;
 
