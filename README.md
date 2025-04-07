@@ -6,6 +6,7 @@ Servicio Api, cuya responsabilidad es la de acceder y consumir peticiones a una 
 Se implemento el patron (Clean Architecture)
 Se aplica Principios SOLID
 Se aplica Inyeccion de Dependencias (DI)
+Se aplica Polly
 
 Servicio Api Externa de Muestra:  
 
